@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)https://cs.westminstercollege.edu/~jingsai/courses/CMPT311/calendar.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="Expires" content="0">
+        <!--<base target=" top">--><base href="." target=" top">
+        <style>
+          .hidden{
+            display: none;
+          }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- <script>
+            var _frame = document.getElementById("frame311");
+            _frame.contentWindow.location.href = _frame.src;
+        </script> -->
+        <!-- <script>
+            $(function(){
+                var content = document.getElementById('weekly-schedule-body')
+                $(content).each(function(elem,index){
+                var arr = $.makeArray($("tr",this).detach());
+                arr.reverse();
+                    $(this).append(arr);
+                });
+            });
+        </script> -->
+        <title>CMPT311 Calendar</title>
+        <style>
+            body {
+                font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            }
+
+            a {
+                color: #825ab9;
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            div.subtitle {
+                font-weight: bold;
+                font-size: 110%;
+            }
+
+            x-gap {
+                display: block;
+                height: 1ex;
+                width: 0;
+            }
+
+            .indented {
+                margin-left: 4ex;
+            }
+
+            table#office-hours {
+                min-width: 100ex;
+            }
+
+            table#office-hours td {
+                width: 33%;
+                vertical-align: top;
+            }
+
+            table#weekly-schedule {
+                border-collapse: collapse;
+                border: 1px solid black;
+                width: 100%;
+            }
+
+            table#weekly-schedule td, table#weekly-schedule th {
+                border-bottom: 1px solid black;
+                border: 1px solid black;
+                text-align: left;
+                min-width: 8%;
+            }
+
+            table#weekly-schedule td:nth-child(1), table#weekly-schedule th:nth-child(1) {
+                text-align: center;
+            }
+
+            table#weekly-schedule td, table#weekly-schedule th {
+                padding: 0.5ex;
+                min-height: 192px;
+            }
+
+            table#weekly-schedule tbody th {
+                font-weight: normal;
+            }
+
+            table#weekly-schedule tbody ol, table#weekly-schedule tbody ul {
+                margin-top: 0;
+                margin-bottom: 0;
+                padding-left: 3ex;
+            }
+            table li {
+              margin-bottom: 3px;
+            }
+        </style>
+    </head>
+
+    <!-- <p style="color:gray;font-style: italic;">If this page cannot be updated properly at a moment, please either visit this <a  target="_blank" href="https://cs.westminstercollege.edu/~jingsai/courses/CMPT311/calendar.html">webpage</a> of this course directly or temporarily <a  target="_blank" href="https://its.uiowa.edu/support/article/719">clear the cache </a>of your browser and then refresh this page.</p>
+    <hr> -->
+    <!-- This course will be delivered <b>in-person</b> for first two weeks. If you cannot attend the class in-person in first two weeks, please let me know as soon as possible.  I will launch Owl in classroom which will be live-steaming the class on Zoom for you. And I'll check your attendance via Zoom. -->
+    <!-- As directed by the college, in-person attendance is required for this course after Jan 30 unless you are placed in COVID quarantine or have other unavoidable reasons. Please let me know in advance if you need to attend this course on Zoom with an appropriate reason after Jan 30. 
+    <hr> -->
+<body data-new-gr-c-s-check-loaded="14.1043.0" data-gr-ext-installed="">
+        <table id="office-hours">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="subtitle">Jingsai's Office Hours:</div>
+                    <p class="indented">
+                        <ul>
+                            <li>In person at M/W/F 2:45-3:30 pm in Foster 115</li>
+                            <li>Online on Zoom by appointment via email</li>
+                          </ul>
+                        </ul>
+                        <x-gap>
+                    </p>
+                </td>
+                <td>
+                  <div class="subtitle">Email:</div>
+                  <p class="indented">
+                    <img src="img/email.png" width="250px">
+                  </p>
+
+                  <!-- <div class="subtitle">Slack for announcement and Q&A:</div>
+                  <p class="indented">
+                    <ul>
+                        <li><a target="_blank" href="https://join.slack.com/t/cmpt311-22s/shared_invite/zt-1151v6nsx-xFkBv6bgVZuo4EN5ZQc8Gw">Join Slack Workspace for First Time </a></li>
+                        <li><a target="_blank"  href="https://cmpt311-22s.slack.com">Enter Slack Workspace</a></li>
+                    </ul>
+                  </p> -->
+                </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="subtitle">Syllabus:</div>
+                <p class="indented">
+                    <a target="_blank" href="./syllabus.html">Click to Read the Syllabus</a>
+                </p>
+              </td>
+              <td>
+                <div class="subtitle">Zoom:</div>
+                <p class="indented">
+                    <a target="_blank" href="https://us02web.zoom.us/j/86780890628?pwd=YXh0NXVQTFpabkZlcUdsK0lOWXRSdz09">Click to Join the Zoom Meeting</a>
+                </p>
+              </td>
+            </tr>
+        </tbody>
+      </table>
+
+<div class="subtitle">Weekly Schedule</div>
+<!-- <p>The slides is currently adapted from <a href="https://www.csie.ntu.edu.tw/~htlin/mooc/">here</a>. -->
+</p>
+        <table id="weekly-schedule">
+        <thead>
+            <tr>
+                <th scope="col">Index</th>
+                <th scope="col">Week - Date</th>
+                <th scope="col">Topics</th>
+                <th scope="col">Reading</th>
+                <th scope="col">Handouts</th>
+                <!-- <th scope="col">Activities</th> -->
+                <th scope="col">Assignments</th>
+            </tr>
+        </thead>
+        <tbody id='weekly-schedule-body'>
+<!--data-start="2021-01-13 10:00" class="timeit"-->
+        <tr >
+            <td >1</td>
+            <td >1- 5/9</td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+        </tr>
+        <tr >
+            <td >2</td>
+            <td >1- 5/11</td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+        </tr>
+        <tr >
+            <td >3</td>
+            <td >1- 5/13</td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+        </tr>
+        <tr >
+            <td >4</td>
+            <td >2- 5/16</td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+        </tr>
+        <tr >
+            <td >5</td>
+            <td >2- 5/18</td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+        </tr>
+        <tr >
+            <td >6</td>
+            <td >2- 5/20</td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+        </tr>
+        <tr >
+            <td >7</td>
+            <td >3- 5/23</td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+        </tr>
+        <tr >
+            <td >8</td>
+            <td >3- 5/25</td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+        </tr>
+        <tr >
+            <td >9</td>
+            <td >3- 5/27</td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+        </tr>
+        <tr >
+            <td >10</td>
+            <td >4- 5/30</td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+        </tr>
+        <tr >
+            <td >11</td>
+            <td >4- 6/1</td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+        </tr>
+        <tr >
+            <td >12</td>
+            <td >4- 6/3</td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+        </tr>
+    </tbody>
+</table>
+<script src="./js/timeit.js"></script>
+<br>
+<br>
