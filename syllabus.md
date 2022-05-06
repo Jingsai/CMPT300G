@@ -44,11 +44,11 @@ Assignments cannot be turned in via email.
 
 ##### Reference Books (not required)
 
-- [Learning from Data](http://amlbook.com/)
-- [The Hundred-Page Machine Learning Book](http://themlbook.com/)
-- [Machine Learning Engineering](https://www.amazon.com/Machine-Learning-Engineering-Andriy-Burkov/dp/1999579577)
+- [Deep Learning](https://www.deeplearningbook.org/)
+- [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://www.oreilly.com/library/view/hands-on-machine-learning/9781491962282/)
+- [Introduction to Deep Learning](https://mitpress.mit.edu/books/introduction-deep-learning)
 
-##### Planned Topics to be Covered
+<!-- ##### Planned Topics to be Covered
 
 - Machine Learning Foundations 
 - The Linear Model
@@ -56,7 +56,7 @@ Assignments cannot be turned in via email.
 - Similarity-based methods
 - Tree-based methods
 - Support Vector Machine
-- Neural Network
+- Neural Network -->
 
 <!-- ##### Methodology
 
