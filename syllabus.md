@@ -27,7 +27,7 @@ Dick Hall, 117 In Person
 
 ##### Office Hours
 
-- In person at M/W/F 2:45-3:30 pm in Foster 115
+- In person at M/W/F 2:45-3:30 pm in Meldrum 170
 - Online on Zoom by appointment via email
 
 ##### Instructor
