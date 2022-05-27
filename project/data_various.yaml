@@ -1,0 +1,7 @@
+
+train: [/content/drive/MyDrive/pelican/train_pelican/images, /content/drive/MyDrive/pelican/augmentation/various/images] # train images 
+val: /content/drive/MyDrive/pelican/validation_pelican/images   # val images 
+
+# Classes
+nc: 3  # number of classes
+names: [ 'flying', 'no_beak', 'beak']  # class names
