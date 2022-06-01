@@ -94,8 +94,8 @@ The grade distribution is as follows:
 
 | Type                     | Percentile |
 |--------------------------|------------|
-| Assignments              | 70%        |
-| Project                    | 20%        |
+| Assignments              | 60%        |
+| Project                    | 30%        |
 | Attendance/Participation | 10%        |
 
 Your letter grade will be based on the following scale:
